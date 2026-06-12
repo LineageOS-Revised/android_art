@@ -78,7 +78,7 @@ class CompilerOptions final {
   static constexpr bool kDefaultGenerateDebugInfo = false;
   static constexpr bool kDefaultGenerateMiniDebugInfo = true;
   static constexpr size_t kDefaultHugeMethodThreshold = 10000;
-  static constexpr size_t kDefaultInlineMaxCodeUnits = 32;
+  static constexpr size_t kDefaultInlineMaxCodeUnits = 64;
   // Token to represent no value set for `inline_max_code_units_`.
   static constexpr size_t kUnsetInlineMaxCodeUnits = -1;
   // We set a lower inlining threshold for baseline to reduce code size and compilation time. This
